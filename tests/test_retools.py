@@ -13,7 +13,7 @@ Tests for `retools` module.
 """
 
 import unittest
-from retools import retools
+import retools
 import re
 
 class RetoolsTestCase(unittest.TestCase):
