@@ -24,9 +24,9 @@ test_requirements = [
 ]
 
 setup(
-    name='retools',
-    version=versioneer.get_version(),
-    cmdclass=versioneer.get_cmdclass(),
+    name='pyretools',
+    version='0.1.1',
+    #cmdclass=versioneer.get_cmdclass(),
     description="Tools that manipulate Regular Expression",
     long_description=readme + '\n\n' + history,
     author="Chia-Jung, Yang",
