@@ -7,6 +7,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
+import versioneer
 
 with open('README.rst') as readme_file:
     readme = readme_file.read()
@@ -24,7 +25,8 @@ test_requirements = [
 
 setup(
     name='retools',
-    version='0.1.0',
+    version=versioneer.get_version(),
+    cmdclass=versioneer.get_cmdclass(),
     description="Tools that manipulate Regular Expression",
     long_description=readme + '\n\n' + history,
     author="Chia-Jung, Yang",
