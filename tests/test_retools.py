@@ -30,3 +30,4 @@ class RetoolsTestCase(unittest.TestCase):
         for word in negative_words:
             self.assertFalse(condensed.match(word))
 
+
