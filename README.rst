@@ -12,7 +12,7 @@ retools
 Tools that manipulate Regular Expression
 
 * Free software: BSD license
-* Documentation: https://retools.readthedocs.org.
+* Documentation: https://pyretools.readthedocs.org.
 
 Features
 --------
