@@ -4,9 +4,9 @@ Installation
 
 At the command line::
 
-    $ easy_install retools
+    $ easy_install pyretools
 
 Or, if you have virtualenvwrapper installed::
 
-    $ mkvirtualenv retools
-    $ pip install retools
+    $ mkvirtualenv pyretools
+    $ pip install pyretools
